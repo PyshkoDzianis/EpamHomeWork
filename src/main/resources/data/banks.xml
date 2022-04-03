@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.example.com/banks"
+       xsi:schemaLocation="http://www.example.com/banks banks.xsd">
+    <bank name="PriorBank" country="Belarus" >
+
+             <metal-deposit >
+                <depositor>Ivanov Ivan</depositor>
+                <deposit-id>metal23</deposit-id>
+                <open-date>2020-10-01T13:40:00</open-date>
+                <time-constrains>at any time</time-constrains>
+                <amount>200</amount>
+                <profitability>0.1</profitability>
+                <metal-currency>gold</metal-currency>
+            </metal-deposit>
+
+            <currency-deposit >
+                <depositor>Petrov Petr</depositor>
+                <deposit-id>saving12355</deposit-id>
+                <open-date>2010-10-01T15:00:00</open-date>
+                <time-constrains>at any time</time-constrains>
+                <amount>356.6</amount>
+                <profitability>2</profitability>
+                <currency>RUB</currency>
+            </currency-deposit>
+
+        <currency-deposit >
+            <depositor>Sidorov Petr</depositor>
+            <deposit-id>demand615165</deposit-id>
+            <open-date>2017-10-01T15:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>3566.6</amount>
+            <profitability>2.3</profitability>
+            <currency>EUR</currency>
+        </currency-deposit>
+
+    </bank>
+
+    <bank name="BelarusBank" country="Belarus" >
+
+        <metal-deposit >
+            <depositor>Volova Anna</depositor>
+            <deposit-id>metal23</deposit-id>
+            <open-date>2021-10-01T12:45:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>20</amount>
+            <profitability>0.1</profitability>
+            <metal-currency>platinum</metal-currency>
+        </metal-deposit>
+
+        <currency-deposit >
+            <depositor>Sidorov Maks</depositor>
+            <deposit-id>payment312355</deposit-id>
+            <open-date>2016-08-03T15:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>356.6</amount>
+            <profitability>0.1</profitability>
+            <currency>RUB</currency>
+        </currency-deposit>
+
+        <currency-deposit >
+            <depositor>Volk Den</depositor>
+            <deposit-id>demand615165</deposit-id>
+            <open-date>2017-10-01T15:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>3566.6</amount>
+            <profitability>2.3</profitability>
+            <currency>EUR</currency>
+        </currency-deposit>
+
+        <metal-deposit >
+            <depositor>Trus Olga</depositor>
+            <deposit-id>metal23</deposit-id>
+            <open-date>2019-01-01T12:45:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>20</amount>
+            <profitability>0.1</profitability>
+            <metal-currency>silver</metal-currency>
+        </metal-deposit>
+
+    </bank>
+
+    <bank name="AlfaBank" country="Russia" >
+
+        <currency-deposit >
+            <depositor>Volova Anna</depositor>
+            <deposit-id>isurgent35523</deposit-id>
+            <open-date>2021-10-01T12:45:00</open-date>
+            <time-constrains>6 month</time-constrains>
+            <amount>2000</amount>
+            <profitability>0.1</profitability>
+            <currency>EUR</currency>
+        </currency-deposit>
+
+        <currency-deposit >
+            <depositor>Sokolov Ivan</depositor>
+            <deposit-id>saving315555</deposit-id>
+            <open-date>2019-06-03T09:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>356.6</amount>
+            <profitability>2.6</profitability>
+            <currency>RUB</currency>
+        </currency-deposit>
+
+        <currency-deposit >
+            <depositor>Groznyi Ivan</depositor>
+            <deposit-id>saving615165</deposit-id>
+            <open-date>2017-10-01T15:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>3566.6</amount>
+            <profitability>2.3</profitability>
+            <currency>DOL</currency>
+        </currency-deposit>
+
+        <metal-deposit >
+            <depositor>Kot Irina</depositor>
+            <deposit-id>metal23</deposit-id>
+            <open-date>2016-03-01T12:53:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>20</amount>
+            <profitability>0.1</profitability>
+            <metal-currency>gold</metal-currency>
+        </metal-deposit>
+
+    </bank>
+    <bank name="MTBBank" country="Russia" >
+
+        <currency-deposit >
+            <depositor>Tolstoi Aleksandr</depositor>
+            <deposit-id>isurgent35523</deposit-id>
+            <open-date>2021-10-01T12:45:00</open-date>
+            <time-constrains>12 month</time-constrains>
+            <amount>2000</amount>
+            <profitability>0.5</profitability>
+            <currency>RUB</currency>
+        </currency-deposit>
+
+        <currency-deposit >
+            <depositor>Lermontov Petr</depositor>
+            <deposit-id>saving315555</deposit-id>
+            <open-date>2021-06-03T19:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>356.6</amount>
+            <profitability>2.6</profitability>
+            <currency>RUB</currency>
+        </currency-deposit>
+
+        <currency-deposit >
+            <depositor>Ckot Adam</depositor>
+            <deposit-id>saving245165</deposit-id>
+            <open-date>2021-10-01T15:00:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>3566.6</amount>
+            <profitability>2.3</profitability>
+            <currency>BY</currency>
+        </currency-deposit>
+
+        <metal-deposit >
+            <depositor>Petrova Olga</depositor>
+            <deposit-id>metal23</deposit-id>
+            <open-date>2016-03-01T12:53:00</open-date>
+            <time-constrains>at any time</time-constrains>
+            <amount>20</amount>
+            <profitability>0.1</profitability>
+            <metal-currency>silver</metal-currency>
+        </metal-deposit>
+
+    </bank>
+    
+</banks>
